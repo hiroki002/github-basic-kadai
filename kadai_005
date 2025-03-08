@@ -1,0 +1,71 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPstGRoSzzvMRMZZ5UYT0AW",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hiroki002/github-basic-kadai/blob/main/kadai_005\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "VBYVT4DjLwWv"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# 台形の寸法\n",
+        "upper_base = 10  # cm\n",
+        "lower_base = 20  # cm\n",
+        "height = 5       # cm\n",
+        "\n",
+        "# 面積の計算\n",
+        "area = (upper_base + lower_base) * height / 2\n",
+        "\n",
+        "# 結果の出力\n",
+        "print(f\"{area}cm²\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GkqB96fTME0c",
+        "outputId": "2b446fcd-ca6d-41e4-9b77-ecdbe58b1bc3"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "75.0cm²\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
